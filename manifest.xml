@@ -12,8 +12,8 @@
         <file
             path="${app.home}/app/cras-gestao-suas-app-1.0.0-all.jar"
             uri="https://raw.githubusercontent.com/conectcras-ai/Update-SUAS/main/app/cras-gestao-suas-app-1.0.0-all.jar"
-            size="58211305"
-            checksum="d088aae3"/>
+            size="58217083"
+            checksum="49c114bf"/>
     </files>
 
 </configuration>
