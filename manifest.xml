@@ -1,11 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<configuration xmlns="http://update4j.org/schema/configuration" checkSignature="false">
-  <properties>
-    <property key="app.name" value="Gestão do SUAS" />
-    <property key="app.version" value="1.0.1" />
-    <property key="main.class" value="br.semas.sistemas.gestao.suas.app.AppSuas" />
-  </properties>
-  <files>
-    <file path="${app.home}/app/cras-gestao-suas-app-1.0.0-all.jar" uri="https://raw.githubusercontent.com/conectcras-ai/Update-SUAS/main/app/cras-gestao-suas-app-1.0.0-all.jar" size="58222291" checksum="cf4873f6" />
-  </files>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns="http://update4j.org/schema/configuration"
+               checkSignature="false">
+    <properties>
+        <property key="app.name" value="Gestao do SUAS"/>
+        <property key="app.version" value="1.0.0"/>
+        <property key="main.class" value="br.semas.sistemas.gestao.suas.app.AppSuas"/>
+    </properties>
+    <files>
+        <file
+            path="${app.home}/app/cras-gestao-suas-app-1.0.0-all.jar"
+            uri="https://raw.githubusercontent.com/conectcras-ai/Update-SUAS/main/app/cras-gestao-suas-app-1.0.0-all.jar"/>
+    </files>
 </configuration>

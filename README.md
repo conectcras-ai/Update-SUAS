@@ -1,16 +1,12 @@
 # Update-SUAS
 
-Repositorio publico de atualizacao online do ConectSUAS.
+Publique o conteudo desta pasta no repositorio publico:
 
-O aplicativo consulta:
+https://github.com/conectcras-ai/Update-SUAS
 
-```text
-https://raw.githubusercontent.com/conectcras-ai/Update-SUAS/main/manifest.xml
-```
+Estrutura esperada:
 
-Arquivos publicados:
+- manifest.xml
+- app/cras-gestao-suas-app-1.0.0-all.jar
 
-- `manifest.xml`
-- `app/cras-gestao-suas-app-1.0.0-all.jar`
-
-Para nova versao, publique o novo JAR, atualize `manifest.xml` com `version`, `size` e `checksum` Adler32, e envie para `main`.
+Para o botao Sobre > Atualizar sistema detectar nova versao, a versao do manifest precisa ser maior que a versao instalada.
