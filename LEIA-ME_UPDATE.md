@@ -9,7 +9,7 @@ Arquivos principais:
 Correção:
 - O cliente SUAS passa a priorizar a configuração compartilhada do ConectCRAS para usuario/senha/banco.
 - URLs antigas do SUAS (db.url/cras.db.url) não sobrescrevem mais o IP digitado no card do cliente.
-- Se a senha salva for recusada pelo MySQL, o SUAS pede a senha do usuário da aplicação e testa novamente.
+- O cliente SUAS não pede senha do banco; usa a credencial técnica compartilhada/padrão do ConectCRAS.
 - Recursos internos do SUAS mantêm o novo ícone do desktop.
 - Correção de alerta de visitas domiciliares mantida.
 
