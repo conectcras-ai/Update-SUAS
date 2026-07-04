@@ -4,17 +4,16 @@
 
     <properties>
         <property key="app.name" value="Gestão do SUAS"/>
-        <property key="app.version" value="1.0.1"/>
+        <property key="app.version" value="1.0.2"/>
         <property key="main.class" value="br.semas.sistemas.gestao.suas.app.AppSuas"/>
     </properties>
 
     <files>
         <file
-            path="${app.home}/app/cras-gestao-suas-app-1.0.1-all.jar"
-            uri="https://raw.githubusercontent.com/conectcras-ai/Update-SUAS/main/app/cras-gestao-suas-app-1.0.1-all.jar"/>
+            path="${app.home}/app/cras-gestao-suas-app-1.0.2-all.jar"
+            uri="https://raw.githubusercontent.com/conectcras-ai/Update-SUAS/main/app/cras-gestao-suas-app-1.0.2-all.jar"/>
     </files>
 
 </configuration>
-
 
 
