@@ -1,12 +1,11 @@
 # Update-SUAS
 
-Publique o conteudo desta pasta no repositorio publico:
+Versão publicada: 1.0.31.
 
-https://github.com/conectcras-ai/Update-SUAS
+Permissões separadas para consulta, detalhamento administrativo e exportação; negativas de acesso não viram modo/login offline; não restaurar permissões padrão após falha de consulta; filtro de sigilo/público na réplica; versão empacotada prevalece sobre launcher antigo.
 
-Estrutura esperada:
+11 testes passaram; 160 no conjunto dos cinco programas. Sem migração nova.
 
-- manifest.xml
-- app/cras-gestao-suas-app-1.0.0-all.jar
+Use Sobre > Verificar / Atualizar agora e reinicie quando solicitado. O nome físico do JAR permanece estável. Manifesto e binário assinados; confira REVISAO_1.0.31.md para detalhes.
 
-Para o botao Sobre > Atualizar sistema detectar nova versao, a versao do manifest precisa ser maior que a versao instalada.
+Limitações: NÃO remove caches/anexos antigos, NÃO altera grants nem separa contas do banco e NÃO encerra a validação completa de todas as telas. A publicação não instala automaticamente nos computadores.
