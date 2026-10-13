@@ -1,12 +1,11 @@
 # Update SUAS 1.0.6
 
-Conteudo publicado para o repositorio publico conectcras-ai/Update-SUAS.
+Versão publicada: 1.0.31.
 
-Arquivos principais:
+Permissões separadas para consulta, detalhamento administrativo e exportação; negativas de acesso não viram modo/login offline; não restaurar permissões padrão após falha de consulta; filtro de sigilo/público na réplica; versão empacotada prevalece sobre launcher antigo.
 
-- manifest.xml com app.version 1.0.6, tamanho, checksum e assinatura digital;
-- public.pem com a chave publica de validacao;
-- app/cras-gestao-suas-app-1.0.0-all.jar com a build 1.0.6.
+11 testes passaram; 160 no conjunto dos cinco programas. Sem migração nova.
 
-O nome fisico do JAR permanece estavel para atualizar instalacoes 1.0.0 existentes.
-O update substitui apenas a aplicacao; configuracoes locais, credenciais, anexos e banco nao fazem parte do canal.
+Use Sobre > Verificar / Atualizar agora e reinicie quando solicitado. O nome físico do JAR permanece estável. Manifesto e binário assinados; confira REVISAO_1.0.31.md para detalhes.
+
+Limitações: NÃO remove caches/anexos antigos, NÃO altera grants nem separa contas do banco e NÃO encerra a validação completa de todas as telas. A publicação não instala automaticamente nos computadores.
